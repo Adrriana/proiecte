@@ -9,7 +9,7 @@ int main(){
     char newKey[textLen], encrypted[textLen], decrypted[textLen];
 
 
-    //generating new key
+    
     for(i = 0, j = 0; i < textLen; ++i, ++j){
         if(j == keyLen)
             j = 0;
